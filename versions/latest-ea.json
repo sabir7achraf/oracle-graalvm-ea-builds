@@ -1,31 +1,66 @@
 {
-    "version": "26.0.0-ea.05",
-    "download_base_url": "https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-26.0.0-ea.05/",
+    "version": "26.0.0-ea.11",
+    "download_base_url": "https://github.com/graalvm/graal-languages-ea-builds/releases/download/$component-26.0.0-ea.11/",
     "files": [
         {
-            "filename": "graalvm-jdk-26.0.0-ea.05_linux-aarch64_bin.tar.gz",
+            "filename": "$component-26.0.0-ea.11-linux-aarch64.tar.gz",
             "arch": "aarch64",
-            "platform": "linux"
+            "platform": "linux",
+            "variant": "native"
         },
         {
-            "filename": "graalvm-jdk-26.0.0-ea.05_linux-x64_bin.tar.gz",
+            "filename": "$component-26.0.0-ea.11-linux-amd64.tar.gz",
             "arch": "x64",
-            "platform": "linux"
+            "platform": "linux",
+            "variant": "native"
         },
         {
-            "filename": "graalvm-jdk-26.0.0-ea.05_windows-x64_bin.zip",
-            "arch": "x64",
-            "platform": "windows"
-        },
-        {
-            "filename": "graalvm-jdk-26.0.0-ea.05_macos-aarch64_bin.tar.gz",
+            "filename": "$component-26.0.0-ea.11-macos-aarch64.tar.gz",
             "arch": "aarch64",
-            "platform": "darwin"
+            "platform": "darwin",
+            "variant": "native"
         },
         {
-            "filename": "graalvm-jdk-26.0.0-ea.05_macos-x64_bin.tar.gz",
+            "filename": "$component-26.0.0-ea.11-macos-amd64.tar.gz",
             "arch": "x64",
-            "platform": "darwin"
+            "platform": "darwin",
+            "variant": "native"
+        },
+        {
+            "filename": "$component-26.0.0-ea.11-windows-amd64.zip",
+            "arch": "x64",
+            "platform": "windows",
+            "variant": "native"
+        },
+        {
+            "filename": "$component-jvm-26.0.0-ea.11-linux-aarch64.tar.gz",
+            "arch": "aarch64",
+            "platform": "linux",
+            "variant": "jvm"
+        },
+        {
+            "filename": "$component-jvm-26.0.0-ea.11-linux-amd64.tar.gz",
+            "arch": "x64",
+            "platform": "linux",
+            "variant": "jvm"
+        },
+        {
+            "filename": "$component-jvm-26.0.0-ea.11-macos-aarch64.tar.gz",
+            "arch": "aarch64",
+            "platform": "darwin",
+            "variant": "jvm"
+        },
+        {
+            "filename": "$component-jvm-26.0.0-ea.11-macos-amd64.tar.gz",
+            "arch": "x64",
+            "platform": "darwin",
+            "variant": "jvm"
+        },
+        {
+            "filename": "$component-jvm-26.0.0-ea.11-windows-amd64.zip",
+            "arch": "x64",
+            "platform": "windows",
+            "variant": "jvm"
         }
     ]
 }
